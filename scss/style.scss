@@ -1,0 +1,853 @@
+body {
+    font-family: "Overpass", sans-serif;
+}
+.pageBreadcrumb {
+    background-color: #f2f2f2;
+    .breadcrumb-item {
+        + {
+            .breadcrumb-item {
+                &::before {
+                    content: ">";
+                }
+            }
+        }
+    }
+    .breadcrumb {
+        background-color: #f2f2f2;
+        padding:3px;
+        .breadcrumb-item {
+            a {
+                font-size: 11px;
+                font-weight: normal;
+                color: #979797;
+                margin-top: 4px;
+            }
+        }
+        .breadcrumb-item.active {
+            a {
+                font-size: 11px;
+                font-weight: normal;
+                color: #e63a46;
+                margin-top: 4px;
+            }
+        }
+    }
+}
+.ToyotaFortunerOverview {
+    margin-top:16px;
+    h2 {
+        color: #262626;
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    img
+    {
+        float:left;
+        margin-right:16px;   
+        width:100px; 
+    }
+    label
+    {
+        color: #848484;
+        font-weight: normal;
+        font-size: 12px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+    .modelName
+    {
+        color: #262626;
+        font-weight: bold;
+        font-size: 14px;
+        margin-top: -5px;
+        img
+        {
+            float:none;
+            margin-right:0px; 
+            width:auto;   
+        }
+        .changeModel
+        {
+            color: #888888;
+            font-weight: bold;
+            font-size: 12px;
+            
+        }
+        
+    }
+    select {
+        border: none;
+        border-bottom-color: #ccc;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        padding-left: 0px;
+        padding-top:0px;
+        margin-top:-6px;
+    }
+    p {
+        color: #848484;
+        font-size: 14px;
+        strong {
+            color: #696969;
+            font-size: 14px;
+            font-weight: bold;
+        }
+    }
+}
+.ToyotaFortunerSpecsAndFeatures {
+    margin-top:36px;
+    h2 {
+        color: #262626;
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    p {
+        color: #848484;
+        font-size: 14px;
+        strong {
+            color: #696969;
+            font-size: 14px;
+            font-weight: bold;
+        }
+    }
+    .KeySpecifications
+    {
+        margin-top: 40px;
+        padding-bottom: 26px;
+        h3
+        {
+            color: #457c9d;
+            font-weight: bold;
+            font-size: 20px;
+            padding-left: 24px;
+        }
+        .halfArea
+        {
+            width:50%;
+            padding-left:24px;
+            float:left;
+            margin-bottom:3px;
+            .property
+            {
+                color: #6d7278;
+                font-weight: normal;
+                font-size: 11px;
+                margin-bottom: 0px;
+                margin-top: 10px;
+            }
+            .values
+            {
+                color: #262626;
+                font-weight: normal;
+                font-size: 13px;
+                margin-bottom: 0px;
+                
+            }
+        }
+    }
+    .KeyFeatures
+    {
+        margin-top: 40px;
+        padding-bottom: 26px;
+        
+        h3
+        {
+            color: #457c9d;
+            font-weight: bold;
+            font-size: 20px;
+            padding-left: 24px;
+        }
+        .values
+        {
+            color: #262626;
+            font-weight: normal;
+            font-size: 13px;
+            margin-bottom: 0px;
+            padding-left:24px;
+            margin-bottom:12px;
+        }
+        .included
+        {
+            color: #148016;
+            font-weight: normal;
+            font-size: 13px;
+            padding-left:24px;
+        }
+        .hr_dashed
+        {
+            border-bottom-style: dashed;
+            border-bottom-width: 1px;
+            border-bottom-color: #bebaba;
+            border-top:none;
+            margin-top:8px;
+
+        }
+    }
+}
+.ToyotaFortunerSpecifications {
+    margin-top: 50px;
+    h2 {
+        color: #262626;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-left:10px;
+    }
+    .bottomBorder
+    {
+        border: none;
+        border-bottom-color: #ccc;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        padding-bottom:10px;
+    }
+    select {
+        border: none;
+        border-bottom-color: #ccc;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        padding-left: 0px;
+        padding-top:0px;
+        margin-top:-6px;
+    }
+    label
+    {
+        color: #848484;
+        font-weight: normal;
+        font-size: 12px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+    ul
+    {
+        background-color: #eaeaea;
+        .nav-item
+        {
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            border-bottom-color: #d2d2d2;
+            .nav-link
+            {
+                padding-top:15px;
+                padding-bottom:15px;
+                color: #4a4a4a;
+                font-weight: normal;
+                font-size: 13px;
+            }
+            .active
+            {
+                background-color: #e63a46;
+                padding:15px 10px;
+                color: #fff;
+                font-weight: normal;
+                font-size: 13px;
+            }
+        }
+    }
+    .EngineTransmission
+    {
+        margin-top: 10px;
+        h3
+        {
+            color: #e63a46;
+            font-weight: bold;
+            font-size: 13px;
+            padding-left:24px;
+            margin-top:24px;
+        }
+        .halfArea
+        {
+            width:50%;
+            padding-left:24px;
+            float:left;
+            margin-bottom:3px;
+            .property
+            {
+                color: #6d7278;
+                font-weight: normal;
+                font-size: 11px;
+                margin-bottom: 0px;
+                margin-top: 10px;
+            }
+            .values
+            {
+                color: #262626;
+                font-weight: normal;
+                font-size: 13px;
+                margin-bottom: 0px;
+                
+            }
+        }
+    }
+    p {
+        color: #6d7278;
+        font-size: 12px;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        a {
+            color: #e63a46;
+            font-size: 15px;
+            text-align: left !important;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+    }
+}
+
+.CheckSimilarCars {
+    margin-top: 50px;
+    h2 {
+        color: #262626;
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .btn {
+        color: #fff;
+        border: 1px solid #e63a46;
+        background-color: #e63a46;
+        font-size: 14px;
+        padding: 10px 20px;
+        text-align: center !important;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-weight: bold;
+        margin-left: 0px;
+        display: block;
+        width: 200px;
+        &:hover {
+            color: #e63a46;
+            border: 1px solid #e63a46;
+            background-color: transparent;
+            text-decoration: none;
+        }
+    }
+    .card {
+        .card-body {
+            padding: 10px;
+            h4 {
+                color: #262626;
+                font-size: 16px;
+                margin-top: 15px;
+                margin-bottom: 10px;
+                font-weight: 600;
+            }
+
+            p {
+                color: #848484;
+                font-size: 12px;
+                margin-bottom: 3px;
+                small {
+                    font-size: 12px;
+                    color: #cf9800;
+                    margin-left: 5px;
+                    img {
+                        width: 10px;
+                        float: left;
+                        margin-top: 4px;
+                    }
+                }
+            }
+            .carPrice {
+                font-size: 16px;
+                color: #262626;
+                font-weight: bold;
+            }
+            .carDetails {
+                font-size: 11px;
+                color: #262626;
+                font-weight: bold;
+            }
+            a {
+                color: #e63a46;
+                border: 1px solid #e63a46;
+                // background-color: ;
+                font-size: 15px;
+                padding: 10px 20px;
+                text-align: center !important;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                font-weight: bold;
+                margin: auto;
+                display: block;
+                width: 100%;
+                &:hover {
+                    color: #fff;
+                    border: 1px solid #e63a46;
+                    background-color: #e63a46;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+.StillNotSure {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    h2 {
+        color: #262626;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 20px;
+    }
+    img {
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    p {
+        color: #262626;
+        font-size: 18px;
+        font-weight: normal;
+        text-align: center;
+    }
+    a {
+        color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        background-color: #e63a46;
+        margin-bottom: 50px;
+    }
+}
+
+// Right Area
+
+.MonthlyInstallmentFortuner {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    .Monthlyinstallment {
+        color: #262626;
+        font-weight: bold;
+        font-size: 16px;
+        margin-top: 0px;
+    }
+    p {
+        color: #262626;
+        font-weight: normal;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    strike {
+        color: #6d7278;
+        font-weight: normal;
+        font-size: 10px;
+        margin-top: 0px;
+    }
+    img {
+        margin-top: 20px;
+    }
+    a
+    {
+        color: #e63a46;
+        font-weight: normal;
+        font-size: 12px;
+        margin-top: 0px;
+        border:1px solid #e63a46;
+        padding:5px 10px;
+        border-radius:5px;
+    }
+}
+
+.GetAmazingFinanceOffersSmall {
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    h4 {
+        color: #262626;
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 10px;
+        padding-top: 15px;
+        text-align: center;
+    }
+    p {
+        color: #868686;
+        font-weight: normal;
+        font-size: 13px;
+        text-align: center;
+    }
+    
+    a {
+        color: #e63a46;
+        border: 1px solid #e63a46;
+        background-color: transparent;
+        font-size: 14px;
+        padding: 10px;
+        text-align: center !important;
+        font-weight: bold;
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+        width: 115px;
+        &:hover {
+            color: #fff;
+            border: 1px solid #e63a46;
+            background-color: #e63a46;
+            text-decoration: none;
+        }
+    }
+}
+
+.nearByCities {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    .card {
+        .card-body {
+            padding: 0px;
+            h4 {
+                color: #262626;
+                font-weight: bold;
+                font-size: 16px;
+                margin-bottom: 10px;
+                padding-top: 15px;
+                padding-left: 12px;
+            }
+            p {
+                color: #868686;
+                font-weight: normal;
+                font-size: 13px;
+                text-align: center;
+            }
+            .head
+            {
+                background-color: #1e3557;
+            }
+           .city,.Price
+           {
+                background-color: #1e3557;
+                color: #fff;
+                font-weight: normal;
+                font-size: 13px;
+                padding: 5px 15px;
+           }
+            .citys
+            {
+                color: #262626;
+                font-weight: normal;
+                font-size: 13px;
+                margin-bottom: 0px;
+                padding-left:15px;
+                margin-top:10px;
+            }
+            .prices
+            {
+                color: #262626;
+                font-weight: normal;
+                font-size: 13px;
+                margin-bottom: 0px;
+                padding-left:15px;
+                margin-top:10px;
+            }
+            
+            
+        }
+    }
+}
+
+.TrendingToyotaCars {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    .card {
+        .card-body {
+            padding: 0px;
+            h4 {
+                color: #262626;
+                font-weight: bold;
+                font-size: 16px;
+                margin-bottom: 10px;
+                padding-top: 15px;
+                padding-left: 15px;
+            }
+            p {
+                color: #868686;
+                font-weight: normal;
+                font-size: 13px;
+                text-align: center;
+            }
+            ul {
+                background-color: rgba(30, 53, 87, 0.89);
+                text-align: center;
+                li {
+                    a {
+                        color: #fff;
+                        padding: 10px;
+                        font-size: 12px;
+                        font-weight: normal;
+                    }
+                }
+            }
+            .nav-pills {
+                .nav-link.active {
+                    background-color: #0d2241;
+                    color: #fff;
+                }
+            }
+            .tab-content {
+                img {
+                    float: left;
+                    border-radius: 5px;
+                    width: 85px;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    margin-bottom: 10px;
+                }
+                .ModalName {
+                    font-size: 13px;
+                    color: #262626;
+                    padding-top: 10px;
+                }
+                p {
+                    font-size: 12px;
+                    color: #848484;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 786px) {
+    .PopularDealers {
+        margin-top: 100px;
+        .owl-carousel {
+            .owl-item {
+                img {
+                    width: 50px;
+                    display: block;
+                    margin: auto;
+                }
+            }
+        }
+    }
+    .bannerBg {
+        background-image: url("/img/bannerBg.jpg");
+        height: auto;
+        min-height: 200px;
+        background-position: center center;
+        .mobileView {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            position: absolute;
+            top: 15%;
+            left: 3%;
+            width: 94%;
+            display: block;
+        }
+        .row {
+            display: none;
+        }
+        h1 {
+            font-family: "Overpass", sans-serif;
+            font-size: 20px;
+            text-align: center;
+            color: #fff;
+            font-weight: bold;
+            padding-top: 10%;
+        }
+
+        p {
+            text-align: center;
+            color: #fff;
+            margin-top: 15px;
+            font-size: 14px;
+            display: none;
+            span {
+                background-color: rgba(0, 0, 0, 0.5);
+                font-size: 12px;
+                color: rgba(255, 255, 255, 0.85);
+                padding: 10px;
+                border-radius: 20px;
+            }
+        }
+        input[type="text"] {
+            border-radius: 8px;
+            margin-top: 10px;
+            &:focus {
+                outline: 0;
+                border-color: transparent !important;
+                box-shadow: none;
+            }
+        }
+        select {
+            border-radius: 8px;
+            &:focus {
+                outline: 0;
+                border-color: transparent !important;
+                box-shadow: none;
+            }
+        }
+        .btn {
+            background-color: #e63a46;
+            height: 40px;
+            color: #fff;
+            width: 172px;
+            border-radius: 10px;
+            text-transform: uppercase;
+            display: block;
+            margin: auto;
+            margin-top: 10px;
+        }
+    }
+    .BuyerGuide {
+        margin-top: 50px;
+        .col-lg-6 {
+            padding: 0px;
+        }
+        h2 {
+            color: #262626;
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .card {
+            border-radius: 20px;
+            margin-bottom: 20px;
+            h4 {
+                color: #262626;
+                font-size: 14px;
+                margin-top: 15px;
+                margin-bottom: 10px;
+                font-weight: bold;
+                margin-left: 3px;
+            }
+            .countTxt {
+                width: 40px;
+                height: 100%;
+                background-color: #e63a46;
+                color: #fff;
+                border-radius: 10px 0px 0px 10px;
+                font-size: 40px;
+                font-weight: bold;
+            }
+            p {
+                font-size: 12px;
+                margin-left: 3px;
+                margin-top: 15px;
+                margin-bottom: 10px;
+                color: #6c6c6c;
+                img {
+                    margin-right: 5px;
+                }
+                span {
+                    color: #427778;
+                    font-size: 12px;
+                    font-weight: bold;
+                    border-right-color: #6c6c6c;
+                    border-right-style: solid;
+                    border-right-width: 1px;
+                    padding-right: 5px;
+                    margin-right: 5px;
+                }
+            }
+        }
+        a {
+            color: #e63a46;
+            border: 1px solid #e63a46;
+            padding: 10px;
+            font-size: 15px;
+            text-align: center !important;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            display: block;
+            width: 100%;
+            &:hover {
+                color: #fff;
+                border: 1px solid #e63a46;
+                background-color: #e63a46;
+                text-decoration: none;
+            }
+        }
+    }
+    .GetAmazingFinanceOffers {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        h4 {
+            color: #262626;
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 10px;
+            padding-top: 30px;
+        }
+        p {
+            color: #262626;
+            font-weight: normal;
+            font-size: 16px;
+        }
+        .imgArea {
+            float: left;
+        }
+        a {
+            color: #e63a46;
+            border: 1px solid #e63a46;
+            background-color: transparent;
+            font-size: 14px;
+            padding: 10px 20px;
+            display: block;
+            width: 200px;
+            text-align: center !important;
+            font-weight: bold;
+            margin: auto;
+            margin-bottom: 20px;
+            &:hover {
+                color: #fff;
+                border: 1px solid #e63a46;
+                background-color: #e63a46;
+                text-decoration: none;
+            }
+        }
+    }
+    .VideoReviews
+    {
+        .OtherVideos
+        {
+            a {
+                color: #fff;
+                border: 1px solid #e63a46;
+                background-color: #e63a46;
+                font-size: 15px;
+                padding: 15px 20px;
+                display: block;
+                margin-top:10px;
+                text-align: center !important;
+                margin-bottom: 10px;
+                font-weight: bold;
+                
+            }
+        } 
+    } 
+    .LatestCars
+    {
+        .btn {
+            color: #fff;
+            border: 1px solid #e63a46;
+            background-color: #e63a46;
+            font-size: 14px;
+            display: block;
+            width: 200px;
+            margin:auto;
+            padding: 10px 20px;
+            text-align: center !important;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+    } 
+}
