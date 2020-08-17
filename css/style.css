@@ -522,6 +522,7 @@ body {
 
 .nearByCities .card .card-body {
   padding: 0px;
+  padding-bottom: 20px;
 }
 
 .nearByCities .card .card-body h4 {
