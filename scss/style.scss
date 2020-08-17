@@ -625,231 +625,357 @@ body {
 }
 
 @media screen and (max-width: 786px) {
-    .PopularDealers {
-        margin-top: 100px;
-        .owl-carousel {
-            .owl-item {
-                img {
-                    width: 50px;
-                    display: block;
-                    margin: auto;
-                }
-            }
-        }
-    }
-    .bannerBg {
-        background-image: url("/img/bannerBg.jpg");
-        height: auto;
-        min-height: 200px;
-        background-position: center center;
-        .mobileView {
-            background-color: #fff;
-            padding: 15px;
-            border-radius: 10px;
-            position: absolute;
-            top: 15%;
-            left: 3%;
-            width: 94%;
-            display: block;
-        }
-        .row {
-            display: none;
-        }
-        h1 {
-            font-family: "Overpass", sans-serif;
-            font-size: 20px;
-            text-align: center;
-            color: #fff;
-            font-weight: bold;
-            padding-top: 10%;
-        }
-
-        p {
-            text-align: center;
-            color: #fff;
-            margin-top: 15px;
-            font-size: 14px;
-            display: none;
-            span {
-                background-color: rgba(0, 0, 0, 0.5);
-                font-size: 12px;
-                color: rgba(255, 255, 255, 0.85);
-                padding: 10px;
-                border-radius: 20px;
-            }
-        }
-        input[type="text"] {
-            border-radius: 8px;
-            margin-top: 10px;
-            &:focus {
-                outline: 0;
-                border-color: transparent !important;
-                box-shadow: none;
-            }
-        }
-        select {
-            border-radius: 8px;
-            &:focus {
-                outline: 0;
-                border-color: transparent !important;
-                box-shadow: none;
-            }
-        }
-        .btn {
-            background-color: #e63a46;
-            height: 40px;
-            color: #fff;
-            width: 172px;
-            border-radius: 10px;
-            text-transform: uppercase;
-            display: block;
-            margin: auto;
-            margin-top: 10px;
-        }
-    }
-    .BuyerGuide {
-        margin-top: 50px;
-        .col-lg-6 {
-            padding: 0px;
-        }
+    .ToyotaFortunerOverview {
+        margin-top:10px;
         h2 {
             color: #262626;
             font-weight: bold;
             font-size: 20px;
-            margin-bottom: 20px;
-        }
-        .card {
-            border-radius: 20px;
-            margin-bottom: 20px;
-            h4 {
-                color: #262626;
-                font-size: 14px;
-                margin-top: 15px;
-                margin-bottom: 10px;
-                font-weight: bold;
-                margin-left: 3px;
-            }
-            .countTxt {
-                width: 40px;
-                height: 100%;
-                background-color: #e63a46;
-                color: #fff;
-                border-radius: 10px 0px 0px 10px;
-                font-size: 40px;
-                font-weight: bold;
-            }
-            p {
-                font-size: 12px;
-                margin-left: 3px;
-                margin-top: 15px;
-                margin-bottom: 10px;
-                color: #6c6c6c;
-                img {
-                    margin-right: 5px;
-                }
-                span {
-                    color: #427778;
-                    font-size: 12px;
-                    font-weight: bold;
-                    border-right-color: #6c6c6c;
-                    border-right-style: solid;
-                    border-right-width: 1px;
-                    padding-right: 5px;
-                    margin-right: 5px;
-                }
-            }
-        }
-        a {
-            color: #e63a46;
-            border: 1px solid #e63a46;
-            padding: 10px;
-            font-size: 15px;
-            text-align: center !important;
-            margin-top: 15px;
             margin-bottom: 10px;
+        }
+        img
+        {
+            float:left;
+            margin-right:16px;   
+            width:100px; 
+        }
+        label
+        {
+            color: #848484;
+            font-weight: normal;
+            font-size: 12px;
+            margin-bottom: 0px;
+            margin-top: 10px;
+        }
+        .modelName
+        {
+            color: #262626;
             font-weight: bold;
-            display: block;
-            width: 100%;
-            &:hover {
-                color: #fff;
-                border: 1px solid #e63a46;
-                background-color: #e63a46;
-                text-decoration: none;
+            font-size: 14px;
+            margin-top: -5px;
+            img
+            {
+                float:none;
+                margin-right:0px; 
+                width:auto;   
+            }
+            .changeModel
+            {
+                color: #888888;
+                font-weight: bold;
+                font-size: 12px;
+                
+            }
+            
+        }
+        select {
+            border: none;
+            border-bottom-color: #ccc;
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            padding-left: 0px;
+            padding-top:0px;
+            margin-top:-6px;
+        }
+        p {
+            color: #848484;
+            font-size: 14px;
+            strong {
+                color: #696969;
+                font-size: 14px;
+                font-weight: bold;
             }
         }
     }
-    .GetAmazingFinanceOffers {
-        margin-top: 50px;
-        margin-bottom: 30px;
-        h4 {
+    .ToyotaFortunerSpecsAndFeatures {
+        margin-top:20px;
+        h2 {
             color: #262626;
             font-weight: bold;
             font-size: 20px;
             margin-bottom: 10px;
-            padding-top: 30px;
         }
         p {
-            color: #262626;
-            font-weight: normal;
-            font-size: 16px;
-        }
-        .imgArea {
-            float: left;
-        }
-        a {
-            color: #e63a46;
-            border: 1px solid #e63a46;
-            background-color: transparent;
+            color: #848484;
             font-size: 14px;
-            padding: 10px 20px;
-            display: block;
-            width: 200px;
-            text-align: center !important;
-            font-weight: bold;
-            margin: auto;
-            margin-bottom: 20px;
-            &:hover {
-                color: #fff;
-                border: 1px solid #e63a46;
-                background-color: #e63a46;
-                text-decoration: none;
+            strong {
+                color: #696969;
+                font-size: 14px;
+                font-weight: bold;
+            }
+        }
+        .KeySpecifications
+        {
+            margin-top: 30px;
+            padding-bottom: 26px;
+            h3
+            {
+                color: #457c9d;
+                font-weight: bold;
+                font-size: 20px;
+                padding-left: 13px;
+            }
+            .halfArea
+            {
+                width:50%;
+                padding-left:13px;
+                float:left;
+                margin-bottom:3px;
+                .property
+                {
+                    color: #6d7278;
+                    font-weight: normal;
+                    font-size: 11px;
+                    margin-bottom: 0px;
+                    margin-top: 10px;
+                }
+                .values
+                {
+                    color: #262626;
+                    font-weight: normal;
+                    font-size: 13px;
+                    margin-bottom: 0px;
+                    
+                }
+            }
+        }
+        .KeyFeatures
+        {
+            margin-top: 40px;
+            padding-bottom: 26px;
+            
+            h3
+            {
+                color: #457c9d;
+                font-weight: bold;
+                font-size: 20px;
+                padding-left: 13px;
+            }
+            .values
+            {
+                color: #262626;
+                font-weight: normal;
+                font-size: 13px;
+                margin-bottom: 0px;
+                padding-left:12px;
+                margin-bottom:12px;
+            }
+            .included
+            {
+                color: #148016;
+                font-weight: normal;
+                font-size: 13px;
+                padding-left:24px;
+            }
+            .hr_dashed
+            {
+                border-bottom-style: dashed;
+                border-bottom-width: 1px;
+                border-bottom-color: #bebaba;
+                border-top:none;
+                margin-top:8px;
+    
             }
         }
     }
-    .VideoReviews
-    {
-        .OtherVideos
+    .ToyotaFortunerSpecifications {
+        margin-top: 50px;
+        h2 {
+            color: #262626;
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: 30px;
+            margin-left:10px;
+        }
+        .bottomBorder
         {
+            border: none;
+            border-bottom-color: #ccc;
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            padding-bottom:10px;
+        }
+        select {
+            border: none;
+            border-bottom-color: #ccc;
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            padding-left: 0px;
+            padding-top:0px;
+            width:95%;
+            margin:auto;
+            margin-top:-6px;
+        }
+        label
+        {
+            color: #848484;
+            font-weight: normal;
+            font-size: 12px;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            margin-left:13px;
+        }
+        ul
+        {
+            background-color: #eaeaea;
+            .nav-item
+            {
+                border-bottom-style: solid;
+                border-bottom-width: 1px;
+                border-bottom-color: #d2d2d2;
+                .nav-link
+                {
+                    padding:10px 5px;
+                    color: #4a4a4a;
+                    font-weight: normal;
+                    font-size: 13px;
+                }
+                .active
+                {
+                    background-color: #e63a46;
+                    padding:10px 5px;
+                    color: #fff;
+                    font-weight: normal;
+                    font-size: 13px;
+                }
+            }
+        }
+        .EngineTransmission
+        {
+            margin-top: 10px;
+            h3
+            {
+                color: #e63a46;
+                font-weight: bold;
+                font-size: 13px;
+                padding-left:12px;
+                margin-top:24px;
+            }
+            .halfArea
+            {
+                width:50%;
+                padding-left:12px;
+                float:left;
+                margin-bottom:3px;
+                .property
+                {
+                    color: #6d7278;
+                    font-weight: normal;
+                    font-size: 11px;
+                    margin-bottom: 0px;
+                    margin-top: 10px;
+                }
+                .values
+                {
+                    color: #262626;
+                    font-weight: normal;
+                    font-size: 13px;
+                    margin-bottom: 0px;
+                    
+                }
+            }
+        }
+        p {
+            color: #6d7278;
+            font-size: 12px;
+            text-align: center;
+            margin-top: 15px;
+            margin-bottom: 10px;
             a {
-                color: #fff;
-                border: 1px solid #e63a46;
-                background-color: #e63a46;
+                color: #e63a46;
                 font-size: 15px;
-                padding: 15px 20px;
-                display: block;
-                margin-top:10px;
-                text-align: center !important;
+                text-align: left !important;
+                margin-top: 15px;
                 margin-bottom: 10px;
                 font-weight: bold;
-                
             }
-        } 
-    } 
-    .LatestCars
-    {
+        }
+    }
+    .CheckSimilarCars {
+        margin-top: 50px;
+        h2 {
+            color: #262626;
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 13px;
+        }
         .btn {
             color: #fff;
             border: 1px solid #e63a46;
             background-color: #e63a46;
             font-size: 14px;
-            display: block;
-            width: 200px;
-            margin:auto;
             padding: 10px 20px;
             text-align: center !important;
             margin-top: 20px;
             margin-bottom: 10px;
             font-weight: bold;
+            margin-left: 0px;
+            display: block;
+            width: 200px;
+            &:hover {
+                color: #e63a46;
+                border: 1px solid #e63a46;
+                background-color: transparent;
+                text-decoration: none;
+            }
         }
-    } 
+        .card {
+            .card-body {
+                padding: 10px;
+                h4 {
+                    color: #262626;
+                    font-size: 16px;
+                    margin-top: 15px;
+                    margin-bottom: 10px;
+                    font-weight: 600;
+                }
+    
+                p {
+                    color: #848484;
+                    font-size: 12px;
+                    margin-bottom: 3px;
+                    small {
+                        font-size: 12px;
+                        color: #cf9800;
+                        margin-left: 5px;
+                        img {
+                            width: 10px;
+                            float: left;
+                            margin-top: 4px;
+                        }
+                    }
+                }
+                .carPrice {
+                    font-size: 16px;
+                    color: #262626;
+                    font-weight: bold;
+                }
+                .carDetails {
+                    font-size: 11px;
+                    color: #262626;
+                    font-weight: bold;
+                }
+                a {
+                    color: #e63a46;
+                    border: 1px solid #e63a46;
+                    // background-color: ;
+                    font-size: 14px;
+                    padding: 6px 20px;
+                    text-align: center !important;
+                    margin-top: 30px;
+                    margin-bottom: 10px;
+                    font-weight: bold;
+                    margin: auto;
+                    display: block;
+                    width: 100%;
+                    &:hover {
+                        color: #fff;
+                        border: 1px solid #e63a46;
+                        background-color: #e63a46;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
 }
